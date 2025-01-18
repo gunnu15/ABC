@@ -1,6 +1,8 @@
-print("Half pyramid pattern of stars(*)")
-n = int(input("enter the number of rows"))
-for i in range(n):
-    for j in range(i+1):
-        print("*", end="")
-    print()
+def weather_condition():
+    print("weather is pleasent in", spring)
+    print("weather is same in the", autumn)
+    
+spring = "spring"
+autumn = "winter"
+weather_condition()
+
